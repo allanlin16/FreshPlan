@@ -1,0 +1,1317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4003B3A71FE3625E00BF682F /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4003B3A61FE3625E00BF682F /* String+.swift */; };
+		4003B3A91FE368C300BF682F /* MDCTextInputControllerDefault+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4003B3A81FE368C300BF682F /* MDCTextInputControllerDefault+.swift */; };
+		400BEC231FEC860700D8BADE /* CLGeocoder+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400BEC221FEC860700D8BADE /* CLGeocoder+.swift */; };
+		400BEC251FEC914800D8BADE /* MeetupDirectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400BEC241FEC914800D8BADE /* MeetupDirectionCell.swift */; };
+		400BEC271FECA53900D8BADE /* MeetupInviteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400BEC261FECA53900D8BADE /* MeetupInviteCell.swift */; };
+		400FC2161F897BA200B3098B /* FreshPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400FC2151F897BA200B3098B /* FreshPlan.swift */; };
+		402D931A1FEF6E7A008E268A /* EditMeetupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402D93191FEF6E7A008E268A /* EditMeetupViewModel.swift */; };
+		402D931C1FEF6F9D008E268A /* EditMeetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402D931B1FEF6F9D008E268A /* EditMeetupViewController.swift */; };
+		402D931E1FEF6FA6008E268A /* EditMeetupAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402D931D1FEF6FA6008E268A /* EditMeetupAssembler.swift */; };
+		402D93201FEF7CBA008E268A /* EditMeetupRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402D931F1FEF7CBA008E268A /* EditMeetupRouter.swift */; };
+		402D93231FEF7FF4008E268A /* EditMeetupTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402D93221FEF7FF4008E268A /* EditMeetupTextFieldCell.swift */; };
+		402D93251FEF8245008E268A /* EditMeetupTextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402D93241FEF8245008E268A /* EditMeetupTextViewCell.swift */; };
+		402D93271FEF8421008E268A /* EditMeeupGeocodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402D93261FEF8421008E268A /* EditMeeupGeocodeCell.swift */; };
+		402D93291FEF842C008E268A /* EditMeetupDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402D93281FEF842C008E268A /* EditMeetupDateCell.swift */; };
+		402D932B1FEF8D0D008E268A /* MeetupNoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402D932A1FEF8D0D008E268A /* MeetupNoteCell.swift */; };
+		40426D091F86B85500875179 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40426D081F86B85500875179 /* LoginViewController.swift */; };
+		40426D0B1F86B85E00875179 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40426D0A1F86B85E00875179 /* LoginViewModel.swift */; };
+		40426D0D1F86B86800875179 /* LoginAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40426D0C1F86B86800875179 /* LoginAssembler.swift */; };
+		40426D151F86BC9C00875179 /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40426D141F86BC9C00875179 /* RouterProtocol.swift */; };
+		40426D1A1F86C12600875179 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40426D191F86C12600875179 /* LoginRouter.swift */; };
+		4044C47A1FE7266A00C0C244 /* MeetupDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4044C4791FE7266A00C0C244 /* MeetupDetailViewController.swift */; };
+		4044C47C1FE726DB00C0C244 /* MeetupDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4044C47B1FE726DB00C0C244 /* MeetupDetailViewModel.swift */; };
+		4045A2901FE5FE200059482E /* EmptyMeetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4045A28F1FE5FE200059482E /* EmptyMeetupView.swift */; };
+		4045A2931FE601060059482E /* Meetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4045A2921FE601060059482E /* Meetup.swift */; };
+		4045A2951FE601490059482E /* MeetupType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4045A2941FE601490059482E /* MeetupType.swift */; };
+		4045A2971FE601650059482E /* Invitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4045A2961FE601650059482E /* Invitation.swift */; };
+		4045A2991FE603C00059482E /* MeetupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4045A2981FE603C00059482E /* MeetupCell.swift */; };
+		40497D1F1F8CF3A500A4E046 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40497D1E1F8CF3A500A4E046 /* UIColor+.swift */; };
+		4056A4EC1FD4B70B006415A7 /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4056A4EB1FD4B70B006415A7 /* AddFriendViewController.swift */; };
+		4056A4EE1FD4B7FE006415A7 /* AddFriendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4056A4ED1FD4B7FE006415A7 /* AddFriendViewModel.swift */; };
+		4056A4F01FD4B988006415A7 /* AddFriendAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4056A4EF1FD4B988006415A7 /* AddFriendAssembler.swift */; };
+		4056A4F31FD4BDB4006415A7 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4056A4F21FD4BDB4006415A7 /* EmptyView.swift */; };
+		4056A4F51FD4C2DD006415A7 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4056A4F41FD4C2DD006415A7 /* SearchBar.swift */; };
+		405C5A981F8D94E700AC8F9F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405C5A971F8D94E700AC8F9F /* HomeViewController.swift */; };
+		405C5A9A1F8D94FA00AC8F9F /* HomeAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405C5A991F8D94FA00AC8F9F /* HomeAssembler.swift */; };
+		4071F8F71FDB00F3001B77A1 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4071F8F61FDB00F3001B77A1 /* FriendViewController.swift */; };
+		4071F8F91FDB0143001B77A1 /* FriendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4071F8F81FDB0143001B77A1 /* FriendViewModel.swift */; };
+		4071F94D1FDCAF430061C34E /* FriendProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4071F94C1FDCAF430061C34E /* FriendProfileCell.swift */; };
+		4071F94F1FDCB14D0061C34E /* FriendInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4071F94E1FDCB14D0061C34E /* FriendInfoCell.swift */; };
+		4079B14A1FC47407007E9407 /* Token+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4079B1491FC47407007E9407 /* Token+.swift */; };
+		4079B14C1FC475E9007E9407 /* UITableView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4079B14B1FC475E9007E9407 /* UITableView+.swift */; };
+		4079B14E1FC4763B007E9407 /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4079B14D1FC4763B007E9407 /* UILabel+.swift */; };
+		4079B1511FC4785F007E9407 /* ProfileUserHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4079B1501FC4785F007E9407 /* ProfileUserHeaderCell.swift */; };
+		4079B1541FC47E86007E9407 /* CacheStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4079B1531FC47E86007E9407 /* CacheStore.swift */; };
+		4079B1561FC49367007E9407 /* ProfileUserInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4079B1551FC49367007E9407 /* ProfileUserInfoCell.swift */; };
+		4081B6261FF5F71B00302315 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4081B6251FF5F71B00302315 /* SettingsViewController.swift */; };
+		4081B6281FF5F73E00302315 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4081B6271FF5F73E00302315 /* SettingsViewModel.swift */; };
+		4081B62A1FF5F75800302315 /* SettingsAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4081B6291FF5F75800302315 /* SettingsAssembler.swift */; };
+		4081B62E1FF6044300302315 /* ProfileFriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4081B62D1FF6044300302315 /* ProfileFriendCell.swift */; };
+		4083BCD31FEE0D5F007D9B87 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4083BCD21FEE0D5F007D9B87 /* LocationViewController.swift */; };
+		4083BCD51FEE0D9B007D9B87 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4083BCD41FEE0D9B007D9B87 /* LocationViewModel.swift */; };
+		4083BCD71FEE0DB4007D9B87 /* LocationAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4083BCD61FEE0DB4007D9B87 /* LocationAssembler.swift */; };
+		4083BCD91FEE125B007D9B87 /* UISearchBar+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4083BCD81FEE125B007D9B87 /* UISearchBar+.swift */; };
+		4083BCDD1FEE1551007D9B87 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4083BCDC1FEE1551007D9B87 /* LocationCell.swift */; };
+		4083BCE11FEE3859007D9B87 /* UITextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4083BCE01FEE3859007D9B87 /* UITextField+.swift */; };
+		4083BCE31FEE38FA007D9B87 /* EmptyLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4083BCE21FEE38FA007D9B87 /* EmptyLocationView.swift */; };
+		408D082E1F8D267A006BCA8E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408D082D1F8D267A006BCA8E /* RegisterViewController.swift */; };
+		408D08301F8D2716006BCA8E /* RegisterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408D082F1F8D2716006BCA8E /* RegisterRouter.swift */; };
+		408D08321F8D271F006BCA8E /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408D08311F8D271F006BCA8E /* RegisterViewModel.swift */; };
+		408D08341F8D274A006BCA8E /* RegisterAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408D08331F8D274A006BCA8E /* RegisterAssembler.swift */; };
+		408D08371F8D2818006BCA8E /* VerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408D08361F8D2818006BCA8E /* VerifyViewController.swift */; };
+		408D08391F8D285E006BCA8E /* VerifyAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408D08381F8D285E006BCA8E /* VerifyAssembler.swift */; };
+		408D083B1F8D2865006BCA8E /* VerifyRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408D083A1F8D2865006BCA8E /* VerifyRouter.swift */; };
+		408D083D1F8D286D006BCA8E /* VerifyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408D083C1F8D286D006BCA8E /* VerifyViewModel.swift */; };
+		40934BFC1FE61E8F00AD7331 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40934BFB1FE61E8F00AD7331 /* UIImageView+.swift */; };
+		409602AB1FE7276D004D7606 /* MeetupDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409602AA1FE7276D004D7606 /* MeetupDetailRouter.swift */; };
+		409602AD1FE72775004D7606 /* MeetupDetailAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409602AC1FE72775004D7606 /* MeetupDetailAssembler.swift */; };
+		409A55351F86B0D200EB29A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409A55341F86B0D200EB29A4 /* AppDelegate.swift */; };
+		409A553C1F86B0D200EB29A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409A553B1F86B0D200EB29A4 /* Assets.xcassets */; };
+		409A553F1F86B0D200EB29A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409A553D1F86B0D200EB29A4 /* LaunchScreen.storyboard */; };
+		409B2BEF1FBE6192000A7F16 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409B2BEE1FBE6192000A7F16 /* ProfileViewController.swift */; };
+		409B2BF11FBE619B000A7F16 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409B2BF01FBE619B000A7F16 /* ProfileViewModel.swift */; };
+		409B2BF31FBE61F5000A7F16 /* ProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409B2BF21FBE61F5000A7F16 /* ProfileRouter.swift */; };
+		409B2BF51FBE6234000A7F16 /* ProfileAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409B2BF41FBE6234000A7F16 /* ProfileAssembler.swift */; };
+		409B2BF81FBE64F9000A7F16 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409B2BF71FBE64F9000A7F16 /* User.swift */; };
+		409B2BFA1FBE65AF000A7F16 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409B2BF91FBE65AF000A7F16 /* Friend.swift */; };
+		40A0DB211FF0A8980059B020 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A0DB201FF0A8980059B020 /* NotificationService.swift */; };
+		40A311361F9EF503000FAFEB /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A311351F9EF503000FAFEB /* Token.swift */; };
+		40A48B761FF75FBB002FEB28 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A48B751FF75FBB002FEB28 /* SettingsCell.swift */; };
+		40A48B781FF76198002FEB28 /* Bundle+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A48B771FF76198002FEB28 /* Bundle+.swift */; };
+		40A48B7A1FF768EA002FEB28 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40A48B791FF768EA002FEB28 /* Settings.bundle */; };
+		40A48B7E1FF77026002FEB28 /* SettingsSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A48B7D1FF77026002FEB28 /* SettingsSwitchCell.swift */; };
+		40AD4A7B1FECD08300AC2AB3 /* AddMeetupAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AD4A7A1FECD08300AC2AB3 /* AddMeetupAssembler.swift */; };
+		40AD4A7D1FECD08D00AC2AB3 /* AddMeetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AD4A7C1FECD08D00AC2AB3 /* AddMeetupViewController.swift */; };
+		40AD4A7F1FECD09900AC2AB3 /* AddMeetupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AD4A7E1FECD09900AC2AB3 /* AddMeetupViewModel.swift */; };
+		40AD4A811FECD0A000AC2AB3 /* AddMeetupRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AD4A801FECD0A000AC2AB3 /* AddMeetupRouter.swift */; };
+		40B4782C1FEC50B00033DFFF /* MeetupLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4782B1FEC50B00033DFFF /* MeetupLocationCell.swift */; };
+		40B4782E1FEC5CEA0033DFFF /* MeetupDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4782D1FEC5CEA0033DFFF /* MeetupDescriptionCell.swift */; };
+		40BD70101F910F53005B3B9D /* MeetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BD700F1F910F53005B3B9D /* MeetupViewController.swift */; };
+		40BD70121F910FD6005B3B9D /* MeetupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BD70111F910FD6005B3B9D /* MeetupViewModel.swift */; };
+		40BD70141F910FFA005B3B9D /* MeetupRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BD70131F910FFA005B3B9D /* MeetupRouter.swift */; };
+		40BD70161F911022005B3B9D /* MeetupAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BD70151F911022005B3B9D /* MeetupAssembler.swift */; };
+		40BE77901F9ED2310011C899 /* ResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BE778F1F9ED2310011C899 /* ResponseError.swift */; };
+		40BF713D1FDC623200495B81 /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF713C1FDC623200495B81 /* FriendCell.swift */; };
+		40BF713F1FDC73DC00495B81 /* AddFriendRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF713E1FDC73DC00495B81 /* AddFriendRouter.swift */; };
+		40BF71411FDC750400495B81 /* FriendAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF71401FDC750400495B81 /* FriendAssembler.swift */; };
+		40C429021FC3D08C004579A6 /* JSONDecoder+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C429011FC3D08C004579A6 /* JSONDecoder+.swift */; };
+		40D8B0281FE8199E00CE2626 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D8B0271FE8199E00CE2626 /* Location.swift */; };
+		40D8B02A1FE819BB00CE2626 /* Other.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D8B0291FE819BB00CE2626 /* Other.swift */; };
+		40E1EE9C1FE805C00055CBF6 /* MeetupTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E1EE9B1FE805C00055CBF6 /* MeetupTitleCell.swift */; };
+		40E3BD071FEEF383004394AA /* UIDatePicker+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E3BD061FEEF383004394AA /* UIDatePicker+.swift */; };
+		40E3BD091FEF217C004394AA /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E3BD081FEF217C004394AA /* Date+.swift */; };
+		40F8C6D81FED5DE40040D334 /* AddMeetupTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C6D71FED5DE40040D334 /* AddMeetupTextFieldCell.swift */; };
+		40F8C6DA1FED741C0040D334 /* AddMeetupTextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C6D91FED741C0040D334 /* AddMeetupTextViewCell.swift */; };
+		40F8C6DC1FED7FDE0040D334 /* AddMeetupGeocodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C6DB1FED7FDE0040D334 /* AddMeetupGeocodeCell.swift */; };
+		40F8C6E01FED7FF60040D334 /* AddMeetupDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C6DF1FED7FF60040D334 /* AddMeetupDateCell.swift */; };
+		40FCE5732002CB7A004511D0 /* SendInviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FCE5722002CB7A004511D0 /* SendInviteViewController.swift */; };
+		40FCE5752002CBE9004511D0 /* SendInviteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FCE5742002CBE9004511D0 /* SendInviteViewModel.swift */; };
+		40FCE5772002CC0B004511D0 /* SendInviteAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FCE5762002CC0B004511D0 /* SendInviteAssembler.swift */; };
+		40FCE57A2002FDEE004511D0 /* SendInviteMeetupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FCE5792002FDEE004511D0 /* SendInviteMeetupCell.swift */; };
+		7BED1FB6487CD40A991B8614 /* Pods_FreshPlan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A7C6AA0E7580B232CBDCD6 /* Pods_FreshPlan.framework */; };
+		E14D1FEA1FDDCC0400E1BB0D /* InviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D1FE91FDDCC0400E1BB0D /* InviteViewController.swift */; };
+		E14D1FEC1FDDCC3A00E1BB0D /* InviteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D1FEB1FDDCC3A00E1BB0D /* InviteViewModel.swift */; };
+		E14D1FEE1FDDCC5100E1BB0D /* InviteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D1FED1FDDCC5100E1BB0D /* InviteRouter.swift */; };
+		E14D1FF01FDDCC6500E1BB0D /* InviteAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D1FEF1FDDCC6500E1BB0D /* InviteAssembler.swift */; };
+		E173C75B1FFEBFCD00FCBEFE /* MeetupInvite.swift in Sources */ = {isa = PBXBuildFile; fileRef = E173C75A1FFEBFCD00FCBEFE /* MeetupInvite.swift */; };
+		E173C75D2003065700FCBEFE /* SendInviteFriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E173C75C2003065700FCBEFE /* SendInviteFriendCell.swift */; };
+		E1B8538A1FE72F2400AB10A1 /* InviteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B853891FE72F2400AB10A1 /* InviteCell.swift */; };
+		E1B8538C1FE73D6000AB10A1 /* EmptyInvitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B8538B1FE73D6000AB10A1 /* EmptyInvitationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4003B3A61FE3625E00BF682F /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		4003B3A81FE368C300BF682F /* MDCTextInputControllerDefault+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MDCTextInputControllerDefault+.swift"; sourceTree = "<group>"; };
+		400BEC221FEC860700D8BADE /* CLGeocoder+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLGeocoder+.swift"; sourceTree = "<group>"; };
+		400BEC241FEC914800D8BADE /* MeetupDirectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupDirectionCell.swift; sourceTree = "<group>"; };
+		400BEC261FECA53900D8BADE /* MeetupInviteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupInviteCell.swift; sourceTree = "<group>"; };
+		400FC2151F897BA200B3098B /* FreshPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshPlan.swift; sourceTree = "<group>"; };
+		402D93191FEF6E7A008E268A /* EditMeetupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMeetupViewModel.swift; sourceTree = "<group>"; };
+		402D931B1FEF6F9D008E268A /* EditMeetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMeetupViewController.swift; sourceTree = "<group>"; };
+		402D931D1FEF6FA6008E268A /* EditMeetupAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMeetupAssembler.swift; sourceTree = "<group>"; };
+		402D931F1FEF7CBA008E268A /* EditMeetupRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMeetupRouter.swift; sourceTree = "<group>"; };
+		402D93221FEF7FF4008E268A /* EditMeetupTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMeetupTextFieldCell.swift; sourceTree = "<group>"; };
+		402D93241FEF8245008E268A /* EditMeetupTextViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMeetupTextViewCell.swift; sourceTree = "<group>"; };
+		402D93261FEF8421008E268A /* EditMeeupGeocodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMeeupGeocodeCell.swift; sourceTree = "<group>"; };
+		402D93281FEF842C008E268A /* EditMeetupDateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMeetupDateCell.swift; sourceTree = "<group>"; };
+		402D932A1FEF8D0D008E268A /* MeetupNoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupNoteCell.swift; sourceTree = "<group>"; };
+		40426D081F86B85500875179 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		40426D0A1F86B85E00875179 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		40426D0C1F86B86800875179 /* LoginAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAssembler.swift; sourceTree = "<group>"; };
+		40426D141F86BC9C00875179 /* RouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterProtocol.swift; sourceTree = "<group>"; };
+		40426D191F86C12600875179 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		4044C4791FE7266A00C0C244 /* MeetupDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupDetailViewController.swift; sourceTree = "<group>"; };
+		4044C47B1FE726DB00C0C244 /* MeetupDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupDetailViewModel.swift; sourceTree = "<group>"; };
+		4045A28F1FE5FE200059482E /* EmptyMeetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyMeetupView.swift; sourceTree = "<group>"; };
+		4045A2921FE601060059482E /* Meetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meetup.swift; sourceTree = "<group>"; };
+		4045A2941FE601490059482E /* MeetupType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupType.swift; sourceTree = "<group>"; };
+		4045A2961FE601650059482E /* Invitation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invitation.swift; sourceTree = "<group>"; };
+		4045A2981FE603C00059482E /* MeetupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupCell.swift; sourceTree = "<group>"; };
+		40497D1E1F8CF3A500A4E046 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		4056A4EB1FD4B70B006415A7 /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		4056A4ED1FD4B7FE006415A7 /* AddFriendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewModel.swift; sourceTree = "<group>"; };
+		4056A4EF1FD4B988006415A7 /* AddFriendAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendAssembler.swift; sourceTree = "<group>"; };
+		4056A4F21FD4BDB4006415A7 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		4056A4F41FD4C2DD006415A7 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		405C5A971F8D94E700AC8F9F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		405C5A991F8D94FA00AC8F9F /* HomeAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAssembler.swift; sourceTree = "<group>"; };
+		4071F8F61FDB00F3001B77A1 /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		4071F8F81FDB0143001B77A1 /* FriendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewModel.swift; sourceTree = "<group>"; };
+		4071F94C1FDCAF430061C34E /* FriendProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendProfileCell.swift; sourceTree = "<group>"; };
+		4071F94E1FDCB14D0061C34E /* FriendInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendInfoCell.swift; sourceTree = "<group>"; };
+		4079B1491FC47407007E9407 /* Token+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Token+.swift"; sourceTree = "<group>"; };
+		4079B14B1FC475E9007E9407 /* UITableView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+.swift"; sourceTree = "<group>"; };
+		4079B14D1FC4763B007E9407 /* UILabel+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+.swift"; sourceTree = "<group>"; };
+		4079B1501FC4785F007E9407 /* ProfileUserHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUserHeaderCell.swift; sourceTree = "<group>"; };
+		4079B1531FC47E86007E9407 /* CacheStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheStore.swift; sourceTree = "<group>"; };
+		4079B1551FC49367007E9407 /* ProfileUserInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUserInfoCell.swift; sourceTree = "<group>"; };
+		4081B6251FF5F71B00302315 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4081B6271FF5F73E00302315 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		4081B6291FF5F75800302315 /* SettingsAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAssembler.swift; sourceTree = "<group>"; };
+		4081B62D1FF6044300302315 /* ProfileFriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFriendCell.swift; sourceTree = "<group>"; };
+		4083BCD21FEE0D5F007D9B87 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		4083BCD41FEE0D9B007D9B87 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		4083BCD61FEE0DB4007D9B87 /* LocationAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAssembler.swift; sourceTree = "<group>"; };
+		4083BCD81FEE125B007D9B87 /* UISearchBar+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISearchBar+.swift"; sourceTree = "<group>"; };
+		4083BCDC1FEE1551007D9B87 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		4083BCE01FEE3859007D9B87 /* UITextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+.swift"; sourceTree = "<group>"; };
+		4083BCE21FEE38FA007D9B87 /* EmptyLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyLocationView.swift; sourceTree = "<group>"; };
+		408D082D1F8D267A006BCA8E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		408D082F1F8D2716006BCA8E /* RegisterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRouter.swift; sourceTree = "<group>"; };
+		408D08311F8D271F006BCA8E /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		408D08331F8D274A006BCA8E /* RegisterAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterAssembler.swift; sourceTree = "<group>"; };
+		408D08361F8D2818006BCA8E /* VerifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyViewController.swift; sourceTree = "<group>"; };
+		408D08381F8D285E006BCA8E /* VerifyAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyAssembler.swift; sourceTree = "<group>"; };
+		408D083A1F8D2865006BCA8E /* VerifyRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyRouter.swift; sourceTree = "<group>"; };
+		408D083C1F8D286D006BCA8E /* VerifyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyViewModel.swift; sourceTree = "<group>"; };
+		40934BFB1FE61E8F00AD7331 /* UIImageView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+.swift"; sourceTree = "<group>"; };
+		409602AA1FE7276D004D7606 /* MeetupDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupDetailRouter.swift; sourceTree = "<group>"; };
+		409602AC1FE72775004D7606 /* MeetupDetailAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupDetailAssembler.swift; sourceTree = "<group>"; };
+		409A55311F86B0D200EB29A4 /* FreshPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreshPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		409A55341F86B0D200EB29A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		409A553B1F86B0D200EB29A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		409A553E1F86B0D200EB29A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		409A55401F86B0D200EB29A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409B2BEE1FBE6192000A7F16 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		409B2BF01FBE619B000A7F16 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		409B2BF21FBE61F5000A7F16 /* ProfileRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRouter.swift; sourceTree = "<group>"; };
+		409B2BF41FBE6234000A7F16 /* ProfileAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAssembler.swift; sourceTree = "<group>"; };
+		409B2BF71FBE64F9000A7F16 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		409B2BF91FBE65AF000A7F16 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		40A0DB191FF0A72D0059B020 /* FreshPlan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FreshPlan.entitlements; sourceTree = "<group>"; };
+		40A0DB1E1FF0A8980059B020 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A0DB201FF0A8980059B020 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		40A0DB221FF0A8980059B020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40A311351F9EF503000FAFEB /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		40A48B751FF75FBB002FEB28 /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		40A48B771FF76198002FEB28 /* Bundle+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+.swift"; sourceTree = "<group>"; };
+		40A48B791FF768EA002FEB28 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = FreshPlan/Settings.bundle; sourceTree = SOURCE_ROOT; };
+		40A48B7D1FF77026002FEB28 /* SettingsSwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSwitchCell.swift; sourceTree = "<group>"; };
+		40AD4A7A1FECD08300AC2AB3 /* AddMeetupAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeetupAssembler.swift; sourceTree = "<group>"; };
+		40AD4A7C1FECD08D00AC2AB3 /* AddMeetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeetupViewController.swift; sourceTree = "<group>"; };
+		40AD4A7E1FECD09900AC2AB3 /* AddMeetupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeetupViewModel.swift; sourceTree = "<group>"; };
+		40AD4A801FECD0A000AC2AB3 /* AddMeetupRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeetupRouter.swift; sourceTree = "<group>"; };
+		40B4782B1FEC50B00033DFFF /* MeetupLocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupLocationCell.swift; sourceTree = "<group>"; };
+		40B4782D1FEC5CEA0033DFFF /* MeetupDescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupDescriptionCell.swift; sourceTree = "<group>"; };
+		40BD700F1F910F53005B3B9D /* MeetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupViewController.swift; sourceTree = "<group>"; };
+		40BD70111F910FD6005B3B9D /* MeetupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupViewModel.swift; sourceTree = "<group>"; };
+		40BD70131F910FFA005B3B9D /* MeetupRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupRouter.swift; sourceTree = "<group>"; };
+		40BD70151F911022005B3B9D /* MeetupAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupAssembler.swift; sourceTree = "<group>"; };
+		40BE778F1F9ED2310011C899 /* ResponseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseError.swift; sourceTree = "<group>"; };
+		40BF713C1FDC623200495B81 /* FriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
+		40BF713E1FDC73DC00495B81 /* AddFriendRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendRouter.swift; sourceTree = "<group>"; };
+		40BF71401FDC750400495B81 /* FriendAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendAssembler.swift; sourceTree = "<group>"; };
+		40C429011FC3D08C004579A6 /* JSONDecoder+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+.swift"; sourceTree = "<group>"; };
+		40D8B0271FE8199E00CE2626 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		40D8B0291FE819BB00CE2626 /* Other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Other.swift; sourceTree = "<group>"; };
+		40E1EE9B1FE805C00055CBF6 /* MeetupTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupTitleCell.swift; sourceTree = "<group>"; };
+		40E3BD061FEEF383004394AA /* UIDatePicker+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDatePicker+.swift"; sourceTree = "<group>"; };
+		40E3BD081FEF217C004394AA /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		40F8C6D71FED5DE40040D334 /* AddMeetupTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeetupTextFieldCell.swift; sourceTree = "<group>"; };
+		40F8C6D91FED741C0040D334 /* AddMeetupTextViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeetupTextViewCell.swift; sourceTree = "<group>"; };
+		40F8C6DB1FED7FDE0040D334 /* AddMeetupGeocodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeetupGeocodeCell.swift; sourceTree = "<group>"; };
+		40F8C6DF1FED7FF60040D334 /* AddMeetupDateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeetupDateCell.swift; sourceTree = "<group>"; };
+		40FCE5722002CB7A004511D0 /* SendInviteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendInviteViewController.swift; sourceTree = "<group>"; };
+		40FCE5742002CBE9004511D0 /* SendInviteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendInviteViewModel.swift; sourceTree = "<group>"; };
+		40FCE5762002CC0B004511D0 /* SendInviteAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendInviteAssembler.swift; sourceTree = "<group>"; };
+		40FCE5792002FDEE004511D0 /* SendInviteMeetupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendInviteMeetupCell.swift; sourceTree = "<group>"; };
+		66A7C6AA0E7580B232CBDCD6 /* Pods_FreshPlan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreshPlan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		961AF7C9502FB2E5362945B5 /* Pods-FreshPlan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshPlan.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreshPlan/Pods-FreshPlan.release.xcconfig"; sourceTree = "<group>"; };
+		9FC7AE0B22C700F88B3060C9 /* Pods_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E14D1FE91FDDCC0400E1BB0D /* InviteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteViewController.swift; sourceTree = "<group>"; };
+		E14D1FEB1FDDCC3A00E1BB0D /* InviteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteViewModel.swift; sourceTree = "<group>"; };
+		E14D1FED1FDDCC5100E1BB0D /* InviteRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteRouter.swift; sourceTree = "<group>"; };
+		E14D1FEF1FDDCC6500E1BB0D /* InviteAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteAssembler.swift; sourceTree = "<group>"; };
+		E173C75A1FFEBFCD00FCBEFE /* MeetupInvite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupInvite.swift; sourceTree = "<group>"; };
+		E173C75C2003065700FCBEFE /* SendInviteFriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendInviteFriendCell.swift; sourceTree = "<group>"; };
+		E1B853891FE72F2400AB10A1 /* InviteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteCell.swift; sourceTree = "<group>"; };
+		E1B8538B1FE73D6000AB10A1 /* EmptyInvitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyInvitationView.swift; sourceTree = "<group>"; };
+		F2535B961F6CEAE83F9AC1E5 /* Pods-FreshPlan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshPlan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreshPlan/Pods-FreshPlan.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		409A552E1F86B0D200EB29A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BED1FB6487CD40A991B8614 /* Pods_FreshPlan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A0DB1B1FF0A8980059B020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F3AB510D7DD34FCCFA2E3F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66A7C6AA0E7580B232CBDCD6 /* Pods_FreshPlan.framework */,
+				9FC7AE0B22C700F88B3060C9 /* Pods_OneSignalNotificationServiceExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		400FC2141F897B5600B3098B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				400FC2151F897BA200B3098B /* FreshPlan.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		402D93181FEF6DFD008E268A /* EditMeetup */ = {
+			isa = PBXGroup;
+			children = (
+				402D931B1FEF6F9D008E268A /* EditMeetupViewController.swift */,
+				402D93191FEF6E7A008E268A /* EditMeetupViewModel.swift */,
+				402D931F1FEF7CBA008E268A /* EditMeetupRouter.swift */,
+				402D931D1FEF6FA6008E268A /* EditMeetupAssembler.swift */,
+				402D93211FEF7FE4008E268A /* Subviews */,
+			);
+			path = EditMeetup;
+			sourceTree = "<group>";
+		};
+		402D93211FEF7FE4008E268A /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				402D93221FEF7FF4008E268A /* EditMeetupTextFieldCell.swift */,
+				402D93241FEF8245008E268A /* EditMeetupTextViewCell.swift */,
+				402D93281FEF842C008E268A /* EditMeetupDateCell.swift */,
+				402D93261FEF8421008E268A /* EditMeeupGeocodeCell.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		40426D041F86B7E500875179 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				40426D061F86B7F200875179 /* Models */,
+				40426D051F86B7EE00875179 /* Modules */,
+				40426D0E1F86B8EC00875179 /* Protocols */,
+				40426D111F86BBA500875179 /* Extensions */,
+				4079B1521FC47E71007E9407 /* Utilities */,
+				400FC2141F897B5600B3098B /* Networking */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		40426D051F86B7EE00875179 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4081B6241FF5F70F00302315 /* Settings */,
+				E14D1FE81FDDCBCF00E1BB0D /* Invite */,
+				40FCE5712002CB59004511D0 /* SendInvite */,
+				4083BCD11FEE0D54007D9B87 /* Location */,
+				4071F8F51FDB00E4001B77A1 /* Friend */,
+				4056A4EA1FD4B6FE006415A7 /* AddFriend */,
+				409B2BED1FBE6129000A7F16 /* Profile */,
+				40BD700E1F910F41005B3B9D /* Meetup */,
+				402D93181FEF6DFD008E268A /* EditMeetup */,
+				40AD4A791FECCB6D00AC2AB3 /* AddMeetup */,
+				4044C4781FE7265400C0C244 /* MeetupDetail */,
+				405C5A961F8D94CA00AC8F9F /* Home */,
+				408D08351F8D280B006BCA8E /* Verify */,
+				408D082C1F8D266C006BCA8E /* Register */,
+				40426D071F86B84800875179 /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		40426D061F86B7F200875179 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				40BE778F1F9ED2310011C899 /* ResponseError.swift */,
+				40A311351F9EF503000FAFEB /* Token.swift */,
+				409B2BF71FBE64F9000A7F16 /* User.swift */,
+				409B2BF91FBE65AF000A7F16 /* Friend.swift */,
+				4045A2921FE601060059482E /* Meetup.swift */,
+				4045A2941FE601490059482E /* MeetupType.swift */,
+				4045A2961FE601650059482E /* Invitation.swift */,
+				40D8B0271FE8199E00CE2626 /* Location.swift */,
+				40D8B0291FE819BB00CE2626 /* Other.swift */,
+				E173C75A1FFEBFCD00FCBEFE /* MeetupInvite.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		40426D071F86B84800875179 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				40426D081F86B85500875179 /* LoginViewController.swift */,
+				40426D0A1F86B85E00875179 /* LoginViewModel.swift */,
+				40426D191F86C12600875179 /* LoginRouter.swift */,
+				40426D0C1F86B86800875179 /* LoginAssembler.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		40426D0E1F86B8EC00875179 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				40426D141F86BC9C00875179 /* RouterProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		40426D111F86BBA500875179 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4083BCD81FEE125B007D9B87 /* UISearchBar+.swift */,
+				4083BCE01FEE3859007D9B87 /* UITextField+.swift */,
+				40497D1E1F8CF3A500A4E046 /* UIColor+.swift */,
+				4079B14D1FC4763B007E9407 /* UILabel+.swift */,
+				40934BFB1FE61E8F00AD7331 /* UIImageView+.swift */,
+				40C429011FC3D08C004579A6 /* JSONDecoder+.swift */,
+				4079B1491FC47407007E9407 /* Token+.swift */,
+				4079B14B1FC475E9007E9407 /* UITableView+.swift */,
+				4003B3A81FE368C300BF682F /* MDCTextInputControllerDefault+.swift */,
+				4003B3A61FE3625E00BF682F /* String+.swift */,
+				400BEC221FEC860700D8BADE /* CLGeocoder+.swift */,
+				40E3BD061FEEF383004394AA /* UIDatePicker+.swift */,
+				40E3BD081FEF217C004394AA /* Date+.swift */,
+				40A48B771FF76198002FEB28 /* Bundle+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4044C4781FE7265400C0C244 /* MeetupDetail */ = {
+			isa = PBXGroup;
+			children = (
+				4044C4791FE7266A00C0C244 /* MeetupDetailViewController.swift */,
+				4044C47B1FE726DB00C0C244 /* MeetupDetailViewModel.swift */,
+				409602AA1FE7276D004D7606 /* MeetupDetailRouter.swift */,
+				409602AC1FE72775004D7606 /* MeetupDetailAssembler.swift */,
+				40E1EE9A1FE804D50055CBF6 /* Subviews */,
+			);
+			path = MeetupDetail;
+			sourceTree = "<group>";
+		};
+		4045A28E1FE5FE0E0059482E /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				4045A28F1FE5FE200059482E /* EmptyMeetupView.swift */,
+				4045A2981FE603C00059482E /* MeetupCell.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		4056A4EA1FD4B6FE006415A7 /* AddFriend */ = {
+			isa = PBXGroup;
+			children = (
+				4056A4EB1FD4B70B006415A7 /* AddFriendViewController.swift */,
+				4056A4ED1FD4B7FE006415A7 /* AddFriendViewModel.swift */,
+				40BF713E1FDC73DC00495B81 /* AddFriendRouter.swift */,
+				4056A4EF1FD4B988006415A7 /* AddFriendAssembler.swift */,
+				4056A4F11FD4BDA6006415A7 /* Subviews */,
+			);
+			path = AddFriend;
+			sourceTree = "<group>";
+		};
+		4056A4F11FD4BDA6006415A7 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				4056A4F21FD4BDB4006415A7 /* EmptyView.swift */,
+				40BF713C1FDC623200495B81 /* FriendCell.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		405C5A961F8D94CA00AC8F9F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				405C5A971F8D94E700AC8F9F /* HomeViewController.swift */,
+				405C5A991F8D94FA00AC8F9F /* HomeAssembler.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4071F8F51FDB00E4001B77A1 /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				4071F8F61FDB00F3001B77A1 /* FriendViewController.swift */,
+				4071F8F81FDB0143001B77A1 /* FriendViewModel.swift */,
+				40BF71401FDC750400495B81 /* FriendAssembler.swift */,
+				4071F94B1FDCA8B10061C34E /* Subviews */,
+			);
+			path = Friend;
+			sourceTree = "<group>";
+		};
+		4071F94B1FDCA8B10061C34E /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				4071F94C1FDCAF430061C34E /* FriendProfileCell.swift */,
+				4071F94E1FDCB14D0061C34E /* FriendInfoCell.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		4079B14F1FC4782C007E9407 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				4079B1501FC4785F007E9407 /* ProfileUserHeaderCell.swift */,
+				4079B1551FC49367007E9407 /* ProfileUserInfoCell.swift */,
+				4081B62D1FF6044300302315 /* ProfileFriendCell.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		4079B1521FC47E71007E9407 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4056A4F41FD4C2DD006415A7 /* SearchBar.swift */,
+				4079B1531FC47E86007E9407 /* CacheStore.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4081B6241FF5F70F00302315 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4081B6251FF5F71B00302315 /* SettingsViewController.swift */,
+				4081B6271FF5F73E00302315 /* SettingsViewModel.swift */,
+				4081B6291FF5F75800302315 /* SettingsAssembler.swift */,
+				40A48B741FF75FA9002FEB28 /* Subviews */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		4083BCD11FEE0D54007D9B87 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				4083BCD21FEE0D5F007D9B87 /* LocationViewController.swift */,
+				4083BCD41FEE0D9B007D9B87 /* LocationViewModel.swift */,
+				4083BCD61FEE0DB4007D9B87 /* LocationAssembler.swift */,
+				4083BCDB1FEE1547007D9B87 /* Subviews */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		4083BCDB1FEE1547007D9B87 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				4083BCE21FEE38FA007D9B87 /* EmptyLocationView.swift */,
+				4083BCDC1FEE1551007D9B87 /* LocationCell.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		408D082C1F8D266C006BCA8E /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				408D082D1F8D267A006BCA8E /* RegisterViewController.swift */,
+				408D08311F8D271F006BCA8E /* RegisterViewModel.swift */,
+				408D08331F8D274A006BCA8E /* RegisterAssembler.swift */,
+				408D082F1F8D2716006BCA8E /* RegisterRouter.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		408D08351F8D280B006BCA8E /* Verify */ = {
+			isa = PBXGroup;
+			children = (
+				408D08361F8D2818006BCA8E /* VerifyViewController.swift */,
+				408D08381F8D285E006BCA8E /* VerifyAssembler.swift */,
+				408D083A1F8D2865006BCA8E /* VerifyRouter.swift */,
+				408D083C1F8D286D006BCA8E /* VerifyViewModel.swift */,
+			);
+			path = Verify;
+			sourceTree = "<group>";
+		};
+		409A55281F86B0D200EB29A4 = {
+			isa = PBXGroup;
+			children = (
+				409A55331F86B0D200EB29A4 /* FreshPlan */,
+				40A0DB1F1FF0A8980059B020 /* OneSignalNotificationServiceExtension */,
+				409A55321F86B0D200EB29A4 /* Products */,
+				63B037B023A8BC3303DFC20E /* Pods */,
+				0F3AB510D7DD34FCCFA2E3F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		409A55321F86B0D200EB29A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				409A55311F86B0D200EB29A4 /* FreshPlan.app */,
+				40A0DB1E1FF0A8980059B020 /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		409A55331F86B0D200EB29A4 /* FreshPlan */ = {
+			isa = PBXGroup;
+			children = (
+				40A48B791FF768EA002FEB28 /* Settings.bundle */,
+				40A0DB191FF0A72D0059B020 /* FreshPlan.entitlements */,
+				409A55341F86B0D200EB29A4 /* AppDelegate.swift */,
+				409A553D1F86B0D200EB29A4 /* LaunchScreen.storyboard */,
+				40426D041F86B7E500875179 /* Sources */,
+				409B2BF61FBE63DF000A7F16 /* Resources */,
+			);
+			path = FreshPlan;
+			sourceTree = "<group>";
+		};
+		409B2BED1FBE6129000A7F16 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				409B2BEE1FBE6192000A7F16 /* ProfileViewController.swift */,
+				409B2BF01FBE619B000A7F16 /* ProfileViewModel.swift */,
+				409B2BF21FBE61F5000A7F16 /* ProfileRouter.swift */,
+				409B2BF41FBE6234000A7F16 /* ProfileAssembler.swift */,
+				4079B14F1FC4782C007E9407 /* Subviews */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		409B2BF61FBE63DF000A7F16 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				409A553B1F86B0D200EB29A4 /* Assets.xcassets */,
+				409A55401F86B0D200EB29A4 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		40A0DB1F1FF0A8980059B020 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				40A0DB201FF0A8980059B020 /* NotificationService.swift */,
+				40A0DB221FF0A8980059B020 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		40A48B741FF75FA9002FEB28 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				40A48B751FF75FBB002FEB28 /* SettingsCell.swift */,
+				40A48B7D1FF77026002FEB28 /* SettingsSwitchCell.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		40AD4A791FECCB6D00AC2AB3 /* AddMeetup */ = {
+			isa = PBXGroup;
+			children = (
+				40AD4A7C1FECD08D00AC2AB3 /* AddMeetupViewController.swift */,
+				40AD4A7E1FECD09900AC2AB3 /* AddMeetupViewModel.swift */,
+				40AD4A801FECD0A000AC2AB3 /* AddMeetupRouter.swift */,
+				40AD4A7A1FECD08300AC2AB3 /* AddMeetupAssembler.swift */,
+				40F8C6D61FED55F20040D334 /* Subviews */,
+			);
+			path = AddMeetup;
+			sourceTree = "<group>";
+		};
+		40BD700E1F910F41005B3B9D /* Meetup */ = {
+			isa = PBXGroup;
+			children = (
+				40BD700F1F910F53005B3B9D /* MeetupViewController.swift */,
+				40BD70111F910FD6005B3B9D /* MeetupViewModel.swift */,
+				40BD70131F910FFA005B3B9D /* MeetupRouter.swift */,
+				40BD70151F911022005B3B9D /* MeetupAssembler.swift */,
+				4045A28E1FE5FE0E0059482E /* Subviews */,
+			);
+			path = Meetup;
+			sourceTree = "<group>";
+		};
+		40E1EE9A1FE804D50055CBF6 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				40E1EE9B1FE805C00055CBF6 /* MeetupTitleCell.swift */,
+				40B4782D1FEC5CEA0033DFFF /* MeetupDescriptionCell.swift */,
+				40B4782B1FEC50B00033DFFF /* MeetupLocationCell.swift */,
+				402D932A1FEF8D0D008E268A /* MeetupNoteCell.swift */,
+				400BEC241FEC914800D8BADE /* MeetupDirectionCell.swift */,
+				400BEC261FECA53900D8BADE /* MeetupInviteCell.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		40F8C6D61FED55F20040D334 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				40F8C6D71FED5DE40040D334 /* AddMeetupTextFieldCell.swift */,
+				40F8C6D91FED741C0040D334 /* AddMeetupTextViewCell.swift */,
+				40F8C6DF1FED7FF60040D334 /* AddMeetupDateCell.swift */,
+				40F8C6DB1FED7FDE0040D334 /* AddMeetupGeocodeCell.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		40FCE5712002CB59004511D0 /* SendInvite */ = {
+			isa = PBXGroup;
+			children = (
+				40FCE5722002CB7A004511D0 /* SendInviteViewController.swift */,
+				40FCE5742002CBE9004511D0 /* SendInviteViewModel.swift */,
+				40FCE5762002CC0B004511D0 /* SendInviteAssembler.swift */,
+				40FCE5782002CD9A004511D0 /* Subviews */,
+			);
+			path = SendInvite;
+			sourceTree = "<group>";
+		};
+		40FCE5782002CD9A004511D0 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				40FCE5792002FDEE004511D0 /* SendInviteMeetupCell.swift */,
+				E173C75C2003065700FCBEFE /* SendInviteFriendCell.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		63B037B023A8BC3303DFC20E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2535B961F6CEAE83F9AC1E5 /* Pods-FreshPlan.debug.xcconfig */,
+				961AF7C9502FB2E5362945B5 /* Pods-FreshPlan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E14D1FE81FDDCBCF00E1BB0D /* Invite */ = {
+			isa = PBXGroup;
+			children = (
+				E14D1FE91FDDCC0400E1BB0D /* InviteViewController.swift */,
+				E14D1FEB1FDDCC3A00E1BB0D /* InviteViewModel.swift */,
+				E14D1FED1FDDCC5100E1BB0D /* InviteRouter.swift */,
+				E14D1FEF1FDDCC6500E1BB0D /* InviteAssembler.swift */,
+				E1B853881FE72E0800AB10A1 /* Subviews */,
+			);
+			path = Invite;
+			sourceTree = "<group>";
+		};
+		E1B853881FE72E0800AB10A1 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				E1B853891FE72F2400AB10A1 /* InviteCell.swift */,
+				E1B8538B1FE73D6000AB10A1 /* EmptyInvitationView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		409A55301F86B0D200EB29A4 /* FreshPlan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409A55591F86B0D200EB29A4 /* Build configuration list for PBXNativeTarget "FreshPlan" */;
+			buildPhases = (
+				D1AF3BF1C28A3CC76CA2EAD6 /* [CP] Check Pods Manifest.lock */,
+				409A552D1F86B0D200EB29A4 /* Sources */,
+				409A552E1F86B0D200EB29A4 /* Frameworks */,
+				409A552F1F86B0D200EB29A4 /* Resources */,
+				A8A041D2EFD4CDED71963FEE /* [CP] Embed Pods Frameworks */,
+				156DDCC05B4822F68A119370 /* [CP] Copy Pods Resources */,
+				40AD78C91FDDDAD30056EEEB /* Fabric */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreshPlan;
+			productName = FreshPlan;
+			productReference = 409A55311F86B0D200EB29A4 /* FreshPlan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40A0DB1D1FF0A8980059B020 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A0DB281FF0A8980059B020 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				40A0DB1A1FF0A8980059B020 /* Sources */,
+				40A0DB1B1FF0A8980059B020 /* Frameworks */,
+				40A0DB1C1FF0A8980059B020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 40A0DB1E1FF0A8980059B020 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		409A55291F86B0D200EB29A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "St Clair College";
+				TargetAttributes = {
+					409A55301F86B0D200EB29A4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					40A0DB1D1FF0A8980059B020 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 409A552C1F86B0D200EB29A4 /* Build configuration list for PBXProject "FreshPlan" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 409A55281F86B0D200EB29A4;
+			productRefGroup = 409A55321F86B0D200EB29A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				409A55301F86B0D200EB29A4 /* FreshPlan */,
+				40A0DB1D1FF0A8980059B020 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		409A552F1F86B0D200EB29A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409A553F1F86B0D200EB29A4 /* LaunchScreen.storyboard in Resources */,
+				40A48B7A1FF768EA002FEB28 /* Settings.bundle in Resources */,
+				409A553C1F86B0D200EB29A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A0DB1C1FF0A8980059B020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		156DDCC05B4822F68A119370 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreshPlan/Pods-FreshPlan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40AD78C91FDDDAD30056EEEB /* Fabric */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Fabric;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" d220679d33f35aa69a60746c90a8cb2cce0109e7 58abe0509fc5f9d2a482aa72416bc3bf98563f324ff08c7012b79931dae22e71";
+		};
+		A8A041D2EFD4CDED71963FEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FreshPlan/Pods-FreshPlan-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/JWTDecode/JWTDecode.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionTransitioning/MotionTransitioning.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxGesture/RxGesture.framework",
+				"${BUILT_PRODUCTS_DIR}/RxOptional/RxOptional.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwiftExt/RxSwiftExt.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JWTDecode.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionTransitioning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxGesture.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxOptional.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwiftExt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreshPlan/Pods-FreshPlan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1AF3BF1C28A3CC76CA2EAD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FreshPlan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		409A552D1F86B0D200EB29A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B4782C1FEC50B00033DFFF /* MeetupLocationCell.swift in Sources */,
+				405C5A9A1F8D94FA00AC8F9F /* HomeAssembler.swift in Sources */,
+				4056A4F31FD4BDB4006415A7 /* EmptyView.swift in Sources */,
+				408D082E1F8D267A006BCA8E /* RegisterViewController.swift in Sources */,
+				4081B6261FF5F71B00302315 /* SettingsViewController.swift in Sources */,
+				40E1EE9C1FE805C00055CBF6 /* MeetupTitleCell.swift in Sources */,
+				40BD70121F910FD6005B3B9D /* MeetupViewModel.swift in Sources */,
+				E14D1FEA1FDDCC0400E1BB0D /* InviteViewController.swift in Sources */,
+				409602AB1FE7276D004D7606 /* MeetupDetailRouter.swift in Sources */,
+				4045A2951FE601490059482E /* MeetupType.swift in Sources */,
+				4079B14C1FC475E9007E9407 /* UITableView+.swift in Sources */,
+				405C5A981F8D94E700AC8F9F /* HomeViewController.swift in Sources */,
+				40AD4A811FECD0A000AC2AB3 /* AddMeetupRouter.swift in Sources */,
+				402D932B1FEF8D0D008E268A /* MeetupNoteCell.swift in Sources */,
+				4045A2901FE5FE200059482E /* EmptyMeetupView.swift in Sources */,
+				409B2BF81FBE64F9000A7F16 /* User.swift in Sources */,
+				402D93271FEF8421008E268A /* EditMeeupGeocodeCell.swift in Sources */,
+				40BF713D1FDC623200495B81 /* FriendCell.swift in Sources */,
+				40426D151F86BC9C00875179 /* RouterProtocol.swift in Sources */,
+				402D93231FEF7FF4008E268A /* EditMeetupTextFieldCell.swift in Sources */,
+				40AD4A7D1FECD08D00AC2AB3 /* AddMeetupViewController.swift in Sources */,
+				4083BCD91FEE125B007D9B87 /* UISearchBar+.swift in Sources */,
+				4045A2991FE603C00059482E /* MeetupCell.swift in Sources */,
+				40BD70141F910FFA005B3B9D /* MeetupRouter.swift in Sources */,
+				4071F94D1FDCAF430061C34E /* FriendProfileCell.swift in Sources */,
+				40A48B761FF75FBB002FEB28 /* SettingsCell.swift in Sources */,
+				E173C75D2003065700FCBEFE /* SendInviteFriendCell.swift in Sources */,
+				402D931E1FEF6FA6008E268A /* EditMeetupAssembler.swift in Sources */,
+				40BF713F1FDC73DC00495B81 /* AddFriendRouter.swift in Sources */,
+				409B2BF11FBE619B000A7F16 /* ProfileViewModel.swift in Sources */,
+				4081B6281FF5F73E00302315 /* SettingsViewModel.swift in Sources */,
+				409B2BEF1FBE6192000A7F16 /* ProfileViewController.swift in Sources */,
+				4045A2971FE601650059482E /* Invitation.swift in Sources */,
+				408D08391F8D285E006BCA8E /* VerifyAssembler.swift in Sources */,
+				4071F94F1FDCB14D0061C34E /* FriendInfoCell.swift in Sources */,
+				408D08371F8D2818006BCA8E /* VerifyViewController.swift in Sources */,
+				402D93251FEF8245008E268A /* EditMeetupTextViewCell.swift in Sources */,
+				400BEC271FECA53900D8BADE /* MeetupInviteCell.swift in Sources */,
+				4056A4F01FD4B988006415A7 /* AddFriendAssembler.swift in Sources */,
+				4083BCE31FEE38FA007D9B87 /* EmptyLocationView.swift in Sources */,
+				4081B62A1FF5F75800302315 /* SettingsAssembler.swift in Sources */,
+				409602AD1FE72775004D7606 /* MeetupDetailAssembler.swift in Sources */,
+				40426D091F86B85500875179 /* LoginViewController.swift in Sources */,
+				408D083B1F8D2865006BCA8E /* VerifyRouter.swift in Sources */,
+				40D8B02A1FE819BB00CE2626 /* Other.swift in Sources */,
+				40934BFC1FE61E8F00AD7331 /* UIImageView+.swift in Sources */,
+				4081B62E1FF6044300302315 /* ProfileFriendCell.swift in Sources */,
+				4083BCDD1FEE1551007D9B87 /* LocationCell.swift in Sources */,
+				4079B1511FC4785F007E9407 /* ProfileUserHeaderCell.swift in Sources */,
+				4003B3A71FE3625E00BF682F /* String+.swift in Sources */,
+				40F8C6DA1FED741C0040D334 /* AddMeetupTextViewCell.swift in Sources */,
+				4056A4EE1FD4B7FE006415A7 /* AddFriendViewModel.swift in Sources */,
+				408D083D1F8D286D006BCA8E /* VerifyViewModel.swift in Sources */,
+				4003B3A91FE368C300BF682F /* MDCTextInputControllerDefault+.swift in Sources */,
+				E1B8538A1FE72F2400AB10A1 /* InviteCell.swift in Sources */,
+				4071F8F91FDB0143001B77A1 /* FriendViewModel.swift in Sources */,
+				40D8B0281FE8199E00CE2626 /* Location.swift in Sources */,
+				40FCE5732002CB7A004511D0 /* SendInviteViewController.swift in Sources */,
+				4079B1561FC49367007E9407 /* ProfileUserInfoCell.swift in Sources */,
+				40BF71411FDC750400495B81 /* FriendAssembler.swift in Sources */,
+				40FCE5772002CC0B004511D0 /* SendInviteAssembler.swift in Sources */,
+				4044C47A1FE7266A00C0C244 /* MeetupDetailViewController.swift in Sources */,
+				40A48B781FF76198002FEB28 /* Bundle+.swift in Sources */,
+				40B4782E1FEC5CEA0033DFFF /* MeetupDescriptionCell.swift in Sources */,
+				4044C47C1FE726DB00C0C244 /* MeetupDetailViewModel.swift in Sources */,
+				40A311361F9EF503000FAFEB /* Token.swift in Sources */,
+				E14D1FEE1FDDCC5100E1BB0D /* InviteRouter.swift in Sources */,
+				E14D1FF01FDDCC6500E1BB0D /* InviteAssembler.swift in Sources */,
+				400BEC231FEC860700D8BADE /* CLGeocoder+.swift in Sources */,
+				409B2BF51FBE6234000A7F16 /* ProfileAssembler.swift in Sources */,
+				400FC2161F897BA200B3098B /* FreshPlan.swift in Sources */,
+				E173C75B1FFEBFCD00FCBEFE /* MeetupInvite.swift in Sources */,
+				40E3BD071FEEF383004394AA /* UIDatePicker+.swift in Sources */,
+				40F8C6D81FED5DE40040D334 /* AddMeetupTextFieldCell.swift in Sources */,
+				4079B14E1FC4763B007E9407 /* UILabel+.swift in Sources */,
+				40AD4A7B1FECD08300AC2AB3 /* AddMeetupAssembler.swift in Sources */,
+				40A48B7E1FF77026002FEB28 /* SettingsSwitchCell.swift in Sources */,
+				402D93201FEF7CBA008E268A /* EditMeetupRouter.swift in Sources */,
+				4071F8F71FDB00F3001B77A1 /* FriendViewController.swift in Sources */,
+				402D931C1FEF6F9D008E268A /* EditMeetupViewController.swift in Sources */,
+				402D93291FEF842C008E268A /* EditMeetupDateCell.swift in Sources */,
+				408D08301F8D2716006BCA8E /* RegisterRouter.swift in Sources */,
+				409A55351F86B0D200EB29A4 /* AppDelegate.swift in Sources */,
+				4083BCD71FEE0DB4007D9B87 /* LocationAssembler.swift in Sources */,
+				408D08321F8D271F006BCA8E /* RegisterViewModel.swift in Sources */,
+				E1B8538C1FE73D6000AB10A1 /* EmptyInvitationView.swift in Sources */,
+				40426D1A1F86C12600875179 /* LoginRouter.swift in Sources */,
+				4045A2931FE601060059482E /* Meetup.swift in Sources */,
+				40BD70161F911022005B3B9D /* MeetupAssembler.swift in Sources */,
+				400BEC251FEC914800D8BADE /* MeetupDirectionCell.swift in Sources */,
+				40F8C6E01FED7FF60040D334 /* AddMeetupDateCell.swift in Sources */,
+				402D931A1FEF6E7A008E268A /* EditMeetupViewModel.swift in Sources */,
+				4083BCE11FEE3859007D9B87 /* UITextField+.swift in Sources */,
+				40426D0D1F86B86800875179 /* LoginAssembler.swift in Sources */,
+				409B2BF31FBE61F5000A7F16 /* ProfileRouter.swift in Sources */,
+				40426D0B1F86B85E00875179 /* LoginViewModel.swift in Sources */,
+				40497D1F1F8CF3A500A4E046 /* UIColor+.swift in Sources */,
+				408D08341F8D274A006BCA8E /* RegisterAssembler.swift in Sources */,
+				40FCE5752002CBE9004511D0 /* SendInviteViewModel.swift in Sources */,
+				40BE77901F9ED2310011C899 /* ResponseError.swift in Sources */,
+				40E3BD091FEF217C004394AA /* Date+.swift in Sources */,
+				4079B14A1FC47407007E9407 /* Token+.swift in Sources */,
+				40AD4A7F1FECD09900AC2AB3 /* AddMeetupViewModel.swift in Sources */,
+				4083BCD31FEE0D5F007D9B87 /* LocationViewController.swift in Sources */,
+				4056A4F51FD4C2DD006415A7 /* SearchBar.swift in Sources */,
+				4056A4EC1FD4B70B006415A7 /* AddFriendViewController.swift in Sources */,
+				E14D1FEC1FDDCC3A00E1BB0D /* InviteViewModel.swift in Sources */,
+				4079B1541FC47E86007E9407 /* CacheStore.swift in Sources */,
+				40BD70101F910F53005B3B9D /* MeetupViewController.swift in Sources */,
+				40FCE57A2002FDEE004511D0 /* SendInviteMeetupCell.swift in Sources */,
+				409B2BFA1FBE65AF000A7F16 /* Friend.swift in Sources */,
+				4083BCD51FEE0D9B007D9B87 /* LocationViewModel.swift in Sources */,
+				40C429021FC3D08C004579A6 /* JSONDecoder+.swift in Sources */,
+				40F8C6DC1FED7FDE0040D334 /* AddMeetupGeocodeCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A0DB1A1FF0A8980059B020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A0DB211FF0A8980059B020 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		409A553D1F86B0D200EB29A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				409A553E1F86B0D200EB29A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		409A55571F86B0D200EB29A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		409A55581F86B0D200EB29A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		409A555A1F86B0D200EB29A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2535B961F6CEAE83F9AC1E5 /* Pods-FreshPlan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FreshPlan/FreshPlan.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 24;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 35PYRYEWH9;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = FreshPlan/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.fractalpoint.freshplan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f5b9d44d-8d4d-4a5e-870d-0dc963db2d9f";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development net.fractalpoint.freshplan";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		409A555B1F86B0D200EB29A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 961AF7C9502FB2E5362945B5 /* Pods-FreshPlan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FreshPlan/FreshPlan.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 24;
+				DEVELOPMENT_TEAM = 35PYRYEWH9;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = FreshPlan/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = net.fractalpoint.freshplan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5282444f-e9b5-4b9f-bc0a-f89996be4d98";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore net.fractalpoint.freshplan";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		40A0DB261FF0A8980059B020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 35PYRYEWH9;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.fractalpoint.freshplan.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0f00376c-18db-4009-be87-29c4052226c2";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development net.fractalpoint.freshplan.OneSignalNotificationServiceExtension";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40A0DB271FF0A8980059B020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 35PYRYEWH9;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.fractalpoint.freshplan.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a6f725bc-0a94-4c43-9cc8-3f6f161ba1ef";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore net.fractalpoint.freshplan.OneSignalNotificationServiceExtension";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		409A552C1F86B0D200EB29A4 /* Build configuration list for PBXProject "FreshPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409A55571F86B0D200EB29A4 /* Debug */,
+				409A55581F86B0D200EB29A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409A55591F86B0D200EB29A4 /* Build configuration list for PBXNativeTarget "FreshPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409A555A1F86B0D200EB29A4 /* Debug */,
+				409A555B1F86B0D200EB29A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A0DB281FF0A8980059B020 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A0DB261FF0A8980059B020 /* Debug */,
+				40A0DB271FF0A8980059B020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 409A55291F86B0D200EB29A4 /* Project object */;
+}

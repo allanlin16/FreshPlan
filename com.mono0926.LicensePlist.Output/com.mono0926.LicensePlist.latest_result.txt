@@ -1,0 +1,103 @@
+name: Alamofire, nameSpecified: 
+body: Copyright (c) 2014-2…
+version: 4.6.0
+
+name: Crashlytics, nameSpecified: 
+body: Fabric: Copyright 20…
+version: 3.9.3
+
+name: Differentiator, nameSpecified: 
+body: MIT License
+
+Copyrig…
+version: 3.0.2
+
+name: Fabric, nameSpecified: 
+body: Fabric: Copyright 20…
+version: 1.7.2
+
+name: JWTDecode, nameSpecified: 
+body: The MIT License (MIT…
+version: 2.1.1
+
+name: MDFInternationalization, nameSpecified: 
+body: 
+                   …
+version: 1.0.4
+
+name: MDFTextAccessibility, nameSpecified: 
+body: 
+                   …
+version: 1.2.0
+
+name: MaterialComponents, nameSpecified: 
+body: 
+                   …
+version: 42.0.0
+
+name: MotionAnimator, nameSpecified: 
+body: 
+                   …
+version: 2.6.0
+
+name: MotionInterchange, nameSpecified: 
+body: 
+                   …
+version: 1.4.0
+
+name: MotionTransitioning, nameSpecified: 
+body: 
+                   …
+version: 5.0.0
+
+name: Moya, nameSpecified: 
+body: The MIT License (MIT…
+version: 10.0.1
+
+name: OneSignal, nameSpecified: 
+body: Modified MIT License…
+version: 2.6.0
+
+name: Result, nameSpecified: 
+body: The MIT License (MIT…
+version: 3.2.4
+
+name: RxCocoa, nameSpecified: 
+body: **The MIT License**
+…
+version: 4.0.0
+
+name: RxDataSources, nameSpecified: 
+body: MIT License
+
+Copyrig…
+version: 3.0.2
+
+name: RxGesture, nameSpecified: 
+body: Copyright (c) RxSwif…
+version: 1.2.1
+
+name: RxOptional, nameSpecified: 
+body: Copyright (c) 2016 T…
+version: 3.3.0
+
+name: RxSwift, nameSpecified: 
+body: **The MIT License**
+…
+version: 4.0.0
+
+name: RxSwiftExt, nameSpecified: 
+body: Copyright (c) 2016 R…
+version: 3.1.0
+
+name: SnapKit, nameSpecified: 
+body: Copyright (c) 2011-P…
+version: 4.0.0
+
+name: OneSignal, nameSpecified: 
+body: Modified MIT License…
+version: 2.6.0
+
+add-version-numbers: false
+
+LicensePlist Version: 1.8.2
